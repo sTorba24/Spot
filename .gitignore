@@ -1,1 +1,15 @@
+# File types #
+##############
+*.pyc
+*.swo
+*.swp
+*.swn
+*.sqlite3
+
+# Directories #
+###############
 .idea
+
+# Specific files #
+##################
+backend/backend/settings.py
