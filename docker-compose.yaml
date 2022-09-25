@@ -12,13 +12,10 @@ services:
     restart: always
     image: mariadb:5.5
     environment:
-      - MYSQL_HOST=localhost
-      - MYSQL_PORT=3306
-      - MYSQL_ROOT_HOST=%
-      - MYSQL_DATABASE=bug
-      - MYSQL_USER=<<username>>
-      - MYSQL_PASSWORD=<<password>>
-      - MYSQL_ROOT_PASSWORD=<<rootpassword>>
+      - DB_HOST=db
+      - DB_NAME=app
+      - DB_USER=postgres
+      - DB_PASS=supersecretpassword
     ports:
       - "3302:3306"
     networks:
