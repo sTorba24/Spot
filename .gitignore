@@ -5,6 +5,7 @@
 *.swp
 *.swn
 *.sqlite3
+*.env
 
 # Directories #
 ###############
